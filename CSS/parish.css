@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar begins */
+.top-nav {
+  display: flex;
+  background-color: rgb(12, 121, 205);
+  justify-content: space-between;
+  /* position: sticky;
+  top: 0px; */
+}
+
+.top-nav .items {
+  display: flex;
+}
+.top-nav .logo {
+  color: white;
+  padding: 20px 0;
+}
+.top-nav .items ul {
+  display: flex;
+}
+.top-nav .items ul li {
+  list-style-type: none;
+  padding: 10px 0;
+}
+.top-nav .items ul li a {
+  text-decoration: none;
+  /* margin: 0 20px; */
+  color: white;
+  display: block;
+  padding: 10px;
+}
+.top-nav .items ul li a:hover {
+  background-color: white;
+  color: gray;
+}
+
+.top-nav .items h4 {
+  padding: 10px 0;
+}
+.top-nav .items h4,
+.img {
+  margin: 10px 10px;
+  color: white;
+}
+.top-nav .items .img img {
+  border-radius: 100%;
+}
+/* navbar ends */
+/* section begins */
+.main {
+  background-color: gainsboro;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+/* left section begins */
+.main .left-section {
+  width: 20%;
+  background-color: white;
+  height: 55%;
+  margin: 20px 20px 10px 10px;
+  position: relative;
+}
+.main .left-section .footer {
+  margin-left: 10px;
+  color: grey;
+  position: absolute;
+  bottom: 10px;
+}
+.main .left-section .icons .home-btn {
+  background-color: gainsboro;
+  margin: 10px 10px 0px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(17, 85, 187);
+}
+.main .left-section .icons .home-btn i {
+  padding-right: 10px;
+  color: rgb(17, 85, 187);
+}
+.main .left-section .icons .cart-btn,
+.coupon-btn,
+.favs-btn,
+.settings-btn {
+  margin-top: 10px;
+  padding: 10px;
+  color: grey;
+  /* background-color: blue; */
+}
+.main .left-section .icons .cart-btn i,
+.coupon-btn i,
+.favs-btn i,
+.settings-btn i {
+  padding-right: 10px;
+}
+
+/* left section ends */
+/* styling right section */
+.main .right-section {
+  width: 60%;
+  background-color: gainsboro;
+  height: fit-content;
+
+  margin-top: 20px;
+}
+.main .right-section .top-right-section {
+  height: 65vh;
+}
+.main .right-section .top-right-section,
+.bottom-right-section {
+  background-color: white;
+}
+
+.main .right-section .top-right-section .nav-right {
+  display: flex;
+  justify-content: space-between;
+}
+.main .right-section .top-right-section .nav-right .top-sellers-logo,
+.filter {
+  margin: 10px;
+}
+.main .right-section .top-right-section .nav-right .top-sellers-logo {
+  color: rgb(17, 85, 187);
+}
+.main .right-section .top-right-section .nav-right .top-sellers-logo i {
+  padding-right: 5px;
+  color: rgb(205, 159, 9);
+}
+/* top sellers */
+.main .right-section .top-right-section .top-sellers {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.main .right-section .top-right-section .top-sellers .img-and-orders {
+  display: flex;
+}
+.main
+  .right-section
+  .top-right-section
+  .top-sellers
+  .img-and-orders
+  .top-sellers-img {
+  margin-right: 5px;
+}
+.main
+  .right-section
+  .top-right-section
+  .top-sellers
+  .img-and-orders
+  .top-sellers-img
+  img {
+  border-radius: 100%;
+}
+.main .right-section .top-right-section .top-sellers .img-and-orders .orders {
+  margin-left: 5px;
+}
+/* top sellers end */
+
+/* top articles begin */
+.main .right-section .top-right-section .top-articles-logo {
+  color: rgb(17, 85, 187);
+  font-weight: bold;
+  margin: 10px;
+}
+.main .right-section .top-right-section .top-articles-logo i {
+  padding-right: 5px;
+  color: rgb(205, 159, 9);
+}
+.main .right-section .top-right-section .top-articles {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px 0px 10px;
+  flex-wrap: wrap;
+}
+.main .right-section .top-right-section .top-articles .img-and-articles {
+  display: flex;
+  margin-bottom: 15px;
+}
+.main
+  .right-section
+  .top-right-section
+  .top-articles
+  .img-and-articles
+  .articles-img {
+  margin-right: 5px;
+}
+.main
+  .right-section
+  .top-right-section
+  .top-articles
+  .img-and-articles
+  .articles-img
+  img {
+  border-radius: 5px;
+}
+.main
+  .right-section
+  .top-right-section
+  .top-articles
+  .img-and-articles
+  .articles {
+  margin-left: 5px;
+}
+.main
+  .right-section
+  .top-right-section
+  .top-articles
+  .img-and-articles
+  .articles
+  span {
+  color: rgb(17, 85, 187);
+}
+/* top articles end */
+/* bottom-right section begins */
+.main .right-section .bottom-right-section {
+  height: fit-content;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.main .right-section .bottom-right-section .latest-logo {
+  margin: 10px;
+  padding-top: 10px;
+  text-transform: capitalize;
+  color: rgb(17, 85, 187);
+  font-weight: bold;
+}
+.main .right-section .bottom-right-section .latest-logo i {
+  color: rgb(205, 159, 9);
+  padding-right: 5px;
+}
+.main .right-section .bottom-right-section .search {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.main .right-section .bottom-right-section .search .search-box input,
+.btn {
+  border-radius: 20px;
+}
+.main .right-section .bottom-right-section .search .search-box input {
+  width: 50vw;
+  border: 1px solid black;
+  padding: 10px;
+}
+.main .right-section .bottom-right-section .search .btn {
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(17, 85, 187);
+  border: none;
+}
+.main .right-section .bottom-right-section .main-box-and-text {
+  display: flex;
+  justify-content: space-around;
+
+  padding-bottom: 20px;
+}
+.main
+  .right-section
+  .bottom-right-section
+  .main-box-and-text
+  .box-and-text
+  .box
+  img {
+  margin: 10px;
+}
+.main
+  .right-section
+  .bottom-right-section
+  .main-box-and-text
+  .box-and-text
+  .text
+  span {
+  color: rgb(12, 121, 205);
+}
+
+/* bottom-right section ends */

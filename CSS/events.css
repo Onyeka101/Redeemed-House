@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(63, 28, 110);
+}
+
+.main .top-nav {
+  display: flex;
+  justify-content: space-evenly;
+
+  text-align: center;
+
+  color: white;
+  margin-top: 10px;
+}
+.main .top-nav .logo {
+  margin-top: 10px;
+  padding: 10px;
+}
+.main .top-nav .nav-bar-items {
+  padding: 10px;
+}
+.main .top-nav .nav-bar-items {
+  display: flex;
+  margin: 10px;
+
+  list-style-type: none;
+  margin-left: 5px;
+
+  text-decoration: none;
+  font-size: smaller;
+  color: white;
+}
+.main .top-nav .nav-bar-items li {
+  margin: 0 10px;
+}
+.main .top-nav .nav-bar-items li a {
+  list-style-type: none;
+  margin-left: 5px;
+
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bold;
+  color: white;
+}
+
+.main .top-nav .login-and-talk {
+  display: flex;
+}
+.main .top-nav .login-and-talk .login {
+  margin-top: 25px;
+  font-size: large;
+  font-weight: bold;
+  padding-right: 30px;
+  /* border-right: 1px solid white; */
+
+  list-style-type: none;
+  text-decoration: none;
+}
+.main .top-nav .login-and-talk .login a {
+  text-decoration: none;
+  color: white;
+}
+.main .top-nav .login-and-talk .btn {
+  padding: 10px 20px;
+  margin: 20px;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: transparent;
+  color: white;
+}
+.main .top-nav .login-and-talk p {
+  margin-top: 25px;
+}
+
+/* section */
+.main .section {
+  margin-left: 158px;
+}
+
+.main .section .heading h1 {
+  text-transform: capitalize;
+  margin: 0px 13px;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main .section .traackr p {
+  margin: 0 13px;
+  color: white;
+  font-size: x-large;
+  width: 40vw;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+}
+
+.main .section .btn2 {
+  background-color: rgb(255, 0, 72);
+  padding: 20px 40px;
+  margin-top: 8px;
+  margin-left: 20px;
+  border-radius: 30px;
+  border: none;
+}
+.main .section .btn2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.main .section .images .img1 {
+  width: 30vw;
+  height: 50vh;
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+}
+.main .section .images .img2 {
+  width: 100px;
+  height: 120px;
+  position: absolute;
+  right: 40px;
+  bottom: 40vh;
+}
+.main .section .images .img3 {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  right: 25vw;
+  bottom: 70px;
+}

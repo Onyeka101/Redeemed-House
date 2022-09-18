@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: orange;
+}
+.section {
+  width: 1400px;
+  height: 700px;
+  background-color: white;
+  margin: 40px auto;
+  border-radius: 10px;
+  position: relative;
+}
+/* top nav begins */
+.section .top-nav {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: violet; */
+  height: 100px;
+}
+.section .top-nav .fruit-store-logo {
+  margin-top: 50px;
+  margin-left: 150px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.section .top-nav .fruit-store-logo i {
+  color: green;
+}
+.section .top-nav .fruit-store-logo .red {
+  color: red;
+}
+.section .top-nav .fruit-store-logo span {
+  color: orange;
+}
+.section .top-nav .list-items {
+  margin-right: 180px;
+}
+.section .top-nav .list-items ul {
+  display: flex;
+}
+.section .top-nav .list-items ul li {
+  margin: 50px 20px 0px 20px;
+  list-style-type: none;
+}
+.section .top-nav .list-items ul li a {
+  text-decoration: none;
+  color: black;
+
+  background-color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+  /* box-shadow: 5px; */
+  text-transform: capitalize;
+}
+.section .top-nav .list-items ul li span {
+  /* color: red; */
+  /* border-bottom: 1px solid red; */
+}
+.section .top-nav .list-items ul li a span {
+  color: red;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid red;
+  font-weight: bold;
+}
+/* .section .top-nav .list-items ul li i {
+  color: red;
+} */
+/* top nav ends */
+/* healthy fruits begins */
+.section .healthy-fruits {
+  /* background-color: brown; */
+  width: 450px;
+  margin-left: 150px;
+  margin-top: 100px;
+  text-transform: capitalize;
+}
+.section .healthy-fruits h2 {
+  font-size: xx-large;
+}
+.section .healthy-fruits h2 span {
+  color: orange;
+}
+.section .healthy-fruits .order-now {
+  padding-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.section .healthy-fruits .lorem {
+  font-size: xx-small;
+  padding-top: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* healthy fruits ends */
+/* button begins */
+.section .btn {
+  margin-top: 20px;
+
+  margin-left: 150px;
+}
+.section .btn button {
+  padding: 10px 20px;
+
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
+.section .btn button i {
+  padding-right: 10px;
+}
+/* button ends */
+
+/* our menu begins */
+
+.section .apple,
+.orange,
+.avocado,
+.cherry {
+  /* background-color: blue; */
+
+  width: 180px;
+}
+.section .apple {
+  font-size: small;
+  position: absolute;
+  bottom: 50px;
+  left: 150px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 8px #000);
+}
+.section .apple span {
+  color: orangered;
+}
+.section .orange {
+  font-size: small;
+  position: absolute;
+  bottom: 50px;
+  left: 447px;
+  padding: 20px;
+  padding-left: 40px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 8px #000);
+}
+.section .orange span {
+  color: orangered;
+}
+.section .avocado {
+  font-size: small;
+  position: absolute;
+  bottom: 50px;
+  right: 447px;
+  padding: 20px;
+  padding-left: 40px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 8px #000);
+}
+.section .avocado span {
+  color: orangered;
+}
+.section .cherry {
+  font-size: small;
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+  padding: 20px;
+  padding-left: 40px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  filter: drop-shadow(2px 4px 8px #000);
+}
+.section .cherry span {
+  color: orangered;
+}
+.section h6 {
+  position: absolute;
+  left: 130px;
+  bottom: 150px;
+  padding: 20px;
+  /* width: 100%; */
+  /* background-color: blueviolet; */
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-size-adjust: 5px;
+}
+.section .small-apple img {
+  position: absolute;
+  bottom: 100px;
+  left: 150px;
+}
+.section .small-orange img {
+  position: absolute;
+  bottom: 100px;
+  left: 450px;
+}
+.section .small-avocado img {
+  position: absolute;
+  bottom: 100px;
+  right: 580px;
+}
+.section .small-cherry img {
+  position: absolute;
+  bottom: 100px;
+  right: 275px;
+}
+
+/* menu ends */
+/* fruit plate begins */
+.section .fruit-plate {
+  position: absolute;
+  right: 150px;
+  bottom: 200px;
+}
+.section .h-leaf img {
+  position: absolute;
+  right: 150px;
+  bottom: 400px;
+}
+.section .h-leaf1 img {
+  position: absolute;
+  left: 600px;
+  top: 150px;
+}
+.section .v-leaf img {
+  position: absolute;
+  left: 700px;
+  bottom: 300px;
+}
+.section .h-leaf11 img {
+  position: absolute;
+  top: 200px;
+  left: -50px;
+}
+
+/* fruit plate ends */

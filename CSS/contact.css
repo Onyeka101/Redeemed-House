@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+.main {
+  width: 70%;
+  margin: 10px auto;
+  background-color: white;
+  height: 100vh;
+}
+h2 {
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 10px;
+}
+input {
+  border: none;
+  background-color: rgb(233, 230, 230);
+  /* display: block; */
+  width: 100%;
+  margin: 2px 10px;
+  padding: 5px;
+  border-radius: 7px;
+}
+.submain {
+  display: flex;
+  justify-content: space-evenly;
+}
+label {
+  font-size: small;
+  text-transform: capitalize;
+  margin: 5px;
+}
+.submit {
+  background-color: black;
+  color: white;
+}

@@ -1,0 +1,606 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: gainsboro;
+}
+/* top nav begins */
+/* facebook logo and search begins */
+.top-nav {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.top-nav .fb-logo-and-search {
+  margin-left: 10px;
+  /* padding: 10px; */
+  /* background-color: brown; */
+  padding: 10px;
+
+  height: fit-content;
+}
+.top-nav .fb-logo-and-search span i {
+  color: blue;
+  font-size: 35px;
+}
+.top-nav .fb-logo-and-search .search {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  background-color: gainsboro;
+}
+.top-nav .fb-logo-and-search .search i {
+  color: black;
+}
+.top-nav .fb-logo-and-search .search input {
+  border: none;
+  background-color: gainsboro;
+  margin-top: 10px;
+}
+/* facebook logo and search ends */
+/* navigations begin */
+.top-nav .navigations {
+  /* background-color: rebeccapurple; */
+  margin: 10px 300px 0px 0px;
+  width: fit-content;
+}
+.top-nav .navigations i {
+  margin: 0px 40px 0px 40px;
+  padding: 10px 20px 10px 20px;
+  font-size: 25px;
+}
+.top-nav .navigations span {
+  color: blue;
+}
+/* navigations end */
+/* chats and notifications */
+.top-nav .chat-and-notifications {
+  display: flex;
+  margin: 0px 5px 0px 5px;
+  /* background-color: blue; */
+}
+.top-nav .chat-and-notifications div {
+  background-color: gainsboro;
+  margin: 10px 5px 0px 5px;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.top-nav .chat-and-notifications div i {
+  margin: auto;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+}
+.top-nav .chat-and-notifications .chisom {
+  padding: 5px;
+}
+.top-nav .chat-and-notifications div img {
+  border-radius: 100%;
+}
+/* chats and notifications end */
+
+/* top nav ends */
+/* right section begins */
+.right-section {
+  /* background-color: rgb(0, 238, 255); */
+  width: 20%;
+  height: 120vh;
+}
+.right-section .home {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: blueviolet; */
+}
+.right-section .home h4,
+button {
+  padding: 10px;
+}
+.right-section .home button {
+  background-color: transparent;
+  border: none;
+  color: blue;
+}
+.right-section .profile-pic {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  /* background-color: brown; */
+}
+.right-section .profile-pic .img-and-name {
+  position: relative;
+  width: 100%;
+}
+.right-section .profile-pic .img-and-name img {
+  border-radius: 100%;
+}
+.right-section .profile-pic .img-and-name h6 {
+  /* background-color: blue; */
+
+  position: absolute;
+  left: 60px;
+  top: 18px;
+}
+.right-section .friend-request {
+  /* background-color: green; */
+  margin-left: 28px;
+  padding: 5px;
+  color: gray;
+  font-size: smaller;
+}
+.right-section hr {
+  margin-left: 10px;
+}
+.right-section .red-group,
+.events,
+.saved,
+.pages,
+.friends,
+.settings,
+.see-more {
+  margin-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.right-section .red-group i {
+  padding-right: 15px;
+  color: red;
+}
+.right-section .events i {
+  padding-right: 15px;
+  color: rgb(223, 197, 197);
+}
+.right-section .saved i {
+  padding-right: 15px;
+  color: rgb(230, 0, 255);
+}
+.right-section .pages i {
+  padding-right: 15px;
+  color: rgb(255, 119, 0);
+}
+.right-section .friends i {
+  padding-right: 15px;
+  color: rgb(0, 94, 255);
+}
+.right-section .settings i {
+  padding-right: 15px;
+  color: rgb(60, 57, 57);
+}
+.right-section .see-more i {
+  padding-right: 15px;
+  color: rgb(0, 255, 102);
+}
+
+/* right section ends */
+/* top center begins */
+.top-center {
+  /* background-color: crimson; */
+  /* width: fit-content; */
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  position: absolute;
+  top: 70px;
+  left: 340px;
+}
+.top-center .one {
+  width: 150px;
+  height: 300px;
+  /* background-color: rgb(4, 41, 73); */
+  border-radius: 10px;
+  margin: 10px;
+  background-image: url(/Images/Chisom-Portrait.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+.top-center .one h4 {
+  margin-top: 210px;
+  color: white;
+}
+.top-center .two {
+  width: 150px;
+  height: 300px;
+  color: rgb(4, 41, 73);
+  border-radius: 10px;
+  margin: 10px;
+  /* background-color: rgb(4, 41, 73); */
+  padding: 10px;
+  background-image: url(/Images1/Adaugo-In-class.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.top-center .two h4 {
+  margin-top: 180px;
+  color: white;
+}
+.top-center .three {
+  width: 150px;
+  height: 300px;
+  color: rgb(4, 41, 73);
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(4, 41, 73);
+  padding: 10px;
+  background-image: url(/Images1/Awa.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.top-center .three h4 {
+  margin-top: 180px;
+  color: white;
+}
+.top-center .four {
+  width: 150px;
+  height: 300px;
+  color: rgb(4, 41, 73);
+  border-radius: 10px;
+  margin: 10px;
+  /* background-color: rgb(4, 41, 73); */
+  padding: 10px;
+  background-image: url(/Images1/charming\ eyes.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-center .four h4 {
+  margin-top: 180px;
+  color: white;
+}
+.top-center .five {
+  width: 150px;
+  height: 300px;
+  color: rgb(4, 41, 73);
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(4, 41, 73);
+  padding: 10px;
+  background-image: url(/Images1/Ini.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.top-center .five h4 {
+  margin-top: 200px;
+  color: white;
+}
+.top-center .five .angl-right .fa-solid {
+  background-color: whitesmoke;
+  border-radius: 100%;
+  padding: 15px;
+  position: absolute;
+  right: -19px;
+  top: 140px;
+}
+.top-center .one .plus-sign .fa-regular {
+  border-radius: 100%;
+  color: rgb(15, 14, 14);
+  border: 1px solid white;
+  padding: 12px;
+  font-size: small;
+  font-weight: bold;
+}
+.profile-pic img {
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+/* top center ends */
+/* mid center begins */
+
+.mid-center {
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  left: 340px;
+  top: 390px;
+}
+.mid-center .fb-logo-and-search img {
+  border-radius: 100%;
+  margin-top: 20px;
+  position: absolute;
+  left: 20px;
+}
+.mid-center .fb-logo-and-search input {
+  margin-left: 20px;
+  width: 85%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: gainsboro;
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  border: none;
+}
+.mid-center .tags {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.mid-center .tags h5 {
+  padding: 10px;
+  /* background-color: blueviolet; */
+}
+.mid-center .tags h5 .fa-solid {
+  padding: 10px;
+}
+.mid-center .tags .image i {
+  color: green;
+}
+.mid-center .tags .friends i {
+  color: blue;
+}
+.mid-center .tags .emoji i {
+  color: yellow;
+}
+/* mid-center ends */
+/* bottom center ends */
+.bottom-center {
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  left: 340px;
+  top: 550px;
+  height: fit-content;
+}
+.bottom-center .img img {
+  border-radius: 100%;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.bottom-center .user .user-name {
+  /* background-color: aqua; */
+  position: absolute;
+  top: 10px;
+  left: 80px;
+}
+.bottom-center .user .last-seen {
+  /* background-color: blueviolet; */
+  position: absolute;
+  top: 30px;
+
+  left: 80px;
+  color: grey;
+  font-weight: bold;
+}
+.bottom-center .user .last-seen .fa-solid {
+  padding-left: 10px;
+}
+.bottom-center .icon .fa-solid {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+.bottom-center .fruit-img {
+  margin-top: 65px;
+  /* background-color: blue; */
+}
+.bottom-center .fruit-img p {
+  margin: 0px 0px 10px 20px;
+}
+.bottom-center .fruit-img img {
+  width: 792px;
+  height: 400px;
+}
+/* bottom center ends */
+/* left (actually right) begins */
+.spnsd {
+  position: absolute;
+  right: 300px;
+  top: 80px;
+}
+.icon1 .fa-solid {
+  position: absolute;
+  top: 120px;
+  right: 355px;
+  background-color: orangered;
+  padding: 15px;
+  border-radius: 100%;
+}
+.lebos-pizza {
+  /* background-color: brown; */
+  width: 350px;
+  position: absolute;
+  right: 0px;
+  top: 120px;
+  padding-left: 15px;
+  padding-right: 7px;
+}
+.lebos-pizza .img img {
+  width: 280px;
+  border-radius: 10px;
+}
+.lebos-pizza .img {
+  border-radius: 20px;
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+}
+.lebos-pizza h4,
+p {
+  padding-bottom: 5px;
+}
+.hr {
+  width: 355px;
+  position: absolute;
+  right: 40px;
+  top: 410px;
+}
+/* spomsored ends */
+/* birthday begins */
+.birthday {
+  position: absolute;
+  right: 300px;
+  top: 420px;
+}
+.icon-and-para {
+  /* background-color: brown; */
+  width: 350px;
+  position: absolute;
+  right: 48px;
+  top: 460px;
+}
+.icon-and-para .fa-solid {
+  padding-right: 20px;
+  color: blue;
+  font-size: xx-large;
+}
+.para {
+  /* background-color: blueviolet; */
+  width: 300px;
+  padding-left: 10px;
+  position: absolute;
+  right: 48px;
+  top: 460px;
+}
+.hr1 {
+  width: 355px;
+  position: absolute;
+  right: 40px;
+  top: 520px;
+}
+/* birthday ends */
+/* contacts begin */
+.contacts {
+  width: 400px;
+  position: absolute;
+  right: 0px;
+  top: 560px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts .fa-solid {
+  margin-right: 20px;
+}
+
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img,
+.img5 img,
+.img6 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.img1 img {
+  position: absolute;
+  right: 355px;
+  top: 610px;
+  border: 2px solid blue;
+  padding: 2px;
+}
+
+.img2 img {
+  position: absolute;
+  right: 355px;
+  top: 690px;
+}
+.img3 img {
+  position: absolute;
+  right: 355px;
+  top: 770px;
+}
+.img4 img {
+  position: absolute;
+  right: 355px;
+  top: 850px;
+  border: 2px solid blue;
+  padding: 2px;
+}
+.img5 img {
+  position: absolute;
+  right: 355px;
+  top: 930px;
+}
+.img6 img {
+  position: absolute;
+  right: 355px;
+  top: 1010px;
+}
+/* green dots */
+
+.g-dot1 .green-dot1,
+.g-dot2 .green-dot2,
+.g-dot3 .green-dot3 {
+  height: 7px;
+  width: 7px;
+  background-color: rgb(4, 122, 12);
+  border-radius: 100%;
+
+  padding: 2px;
+}
+.g-dot1 {
+  background-color: gainsboro;
+  border-radius: 100%;
+  position: absolute;
+  right: 357px;
+  top: 720px;
+  padding: 2px;
+}
+.g-dot2 {
+  background-color: gainsboro;
+  border-radius: 100%;
+  position: absolute;
+  right: 357px;
+  top: 800px;
+  padding: 2px;
+}
+.g-dot3 {
+  background-color: gainsboro;
+  border-radius: 100%;
+  position: absolute;
+  right: 357px;
+  top: 1040px;
+  padding: 2px;
+}
+.Dennis {
+  position: absolute;
+  right: 220px;
+  top: 616px;
+}
+.Eric {
+  position: absolute;
+  right: 220px;
+  top: 696px;
+}
+.Jones {
+  position: absolute;
+  right: 220px;
+  top: 776px;
+}
+.Betty {
+  position: absolute;
+  right: 220px;
+  top: 856px;
+}
+.Lim {
+  position: absolute;
+  right: 220px;
+  top: 936px;
+}
+.Tina {
+  position: absolute;
+  right: 220px;
+  top: 1016px;
+}
+.chat .fa-solid {
+  background-color: white;
+  padding: 12px;
+  border-radius: 100%;
+}
+.chat {
+  position: absolute;
+  right: 80px;
+}
+/* left (actually right) ends*/

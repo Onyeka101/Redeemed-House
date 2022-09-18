@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+/* styling the header */
+div.header {
+  background-color: aqua;
+  height: 200px;
+  background-image: url(/Images/yaya-sun.grp.ls.rz.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.yaya-logo {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.rccg-logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* styling the top-nav */
+.ul-topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: gray;
+  position: sticky;
+  top: 0px;
+  overflow: hidden;
+}
+.li-topnav {
+  float: left;
+}
+.ul-topnav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.li-topnav .a-topnav {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: capitalize;
+}
+.a-topnav:hover {
+  background-color: black;
+  color: white;
+}
+/* styling the sections */
+
+/* side nav */
+.ul-sidenav {
+  list-style-type: none;
+  padding: 0;
+  background-color: aquamarine;
+  width: 25%;
+  float: left;
+}
+.side-nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.article {
+  float: left;
+  width: 75%;
+  padding: 15px;
+  background-color: #e4c1f9;
+}
+.section::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+hr {
+  background-color: #f93943;
+  width: 100%;
+  color: #f93943;
+}
+h2 {
+  text-transform: capitalize;
+  font-family: "Courier New", Courier, monospace;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
